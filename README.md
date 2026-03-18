@@ -1,0 +1,1 @@
+The ZENVYRA is a sophisticated full-stack application that transforms raw developer data into a recruiter-ready experience. By combining GitHub Intelligence, LLM-driven text refinement, and Retrieval Augmented Generation (RAG), it enables developers to showcase their True Technical Value™ without the manual overhead of traditional portfolio builders.
