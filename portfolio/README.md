@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Personal Portfolio Platform
+# 🚀 ZENVYRA
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109-05998b?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -7,7 +7,7 @@
 
 > **The ultimate engineering showcase: Automating the bridge between code and recruitment with Agentic AI.**
 
-The **AI-Powered Personal Portfolio Platform** is a sophisticated full-stack application that transforms raw developer data into a recruiter-ready experience. By combining **GitHub Intelligence**, **LLM-driven text refinement**, and **Retrieval Augmented Generation (RAG)**, it enables developers to showcase their True Technical Value™ without the manual overhead of traditional portfolio builders.
+The **ZENVYRA** is a sophisticated full-stack application that transforms raw developer data into a recruiter-ready experience. By combining **GitHub Intelligence**, **LLM-driven text refinement**, and **Retrieval Augmented Generation (RAG)**, it enables developers to showcase their True Technical Value™ without the manual overhead of traditional portfolio builders.
 
 ---
 
@@ -130,19 +130,3 @@ npm install
 npm run dev
 ```
 
----
-
-## 🛡️ Security & Privacy
-- **JWT Authentication**: Secure session management for all dashboard actions.
-- **Contextual Sandboxing**: The RAG chatbot is strictly limited to the user's provided data, preventing prompt injection and data leaks.
-- **Environment Isolation**: Sensitive keys are never exposed to the client-side.
-
----
-
-## 🗺️ Roadmap
-- [ ] **Multi-Agent Collaboration**: Specialized agents for different engineering roles (DevOps, Frontend, ML).
-- [ ] **Interactive 3D Profile**: A Three.js based "Hub" visualization for top-tier developers.
-- [ ] **Direct Deployment**: Integrate with Vercel/Netlify APIs to deploy project demos directly from the dashboard.
-
----
-*Developed with ❤️ by [Ishan Shirode](https://github.com/ishanshirode) — Bridging the gap between AI and Human Talent.*
