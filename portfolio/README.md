@@ -9,55 +9,6 @@
 
 The **ZENVYRA** is a sophisticated full-stack application that transforms raw developer data into a recruiter-ready experience. By combining **GitHub Intelligence**, **LLM-driven text refinement**, and **Retrieval Augmented Generation (RAG)**, it enables developers to showcase their True Technical Value™ without the manual overhead of traditional portfolio builders.
 
----
-
-## 🏗️ High-Level Architecture
-
-The system is built on a **Modular Micro-Service Architecture** to ensure clean separation of concerns and high scalability.
-
-```mermaid
-graph TD
-    subgraph Client_Layer [Frontend - Next.js 15]
-        Dash[Dashboard View]
-        Profile[Public Portfolio View]
-        Chat[RAG Chat Interface]
-        Enhancer[AI Description Studio]
-    end
-
-    subgraph Service_Orchestrator [Backend - FastAPI]
-        Auth[JWT & Supabase Auth]
-        GH[GitHub Parser Service]
-        AISvc[AI Agent Orchestrator]
-        PDF[PDF Resume Generator]
-    end
-
-    subgraph Intelligence_Layer [AI & Vector Tier]
-        LLM[Gemini Pro & Llama 3.1]
-        FAISS[(FAISS Vector Store)]
-        Embed[Sentence-Transformers]
-        RAG[RAG Query Engine]
-    end
-
-    subgraph Data_Persistence [Persistence Tier]
-        SQL[(PostgreSQL / SQLite)]
-        Redis[(Upstash Redis Cache)]
-    end
-
-    %% Connections
-    Dash --> Auth
-    Dash --> AISvc
-    Chat --> RAG
-    RAG --> FAISS
-    GH --> Embed
-    Embed --> FAISS
-    Dash --> PDF
-    AISvc --> LLM
-    Service_Orchestrator --> SQL
-    Service_Orchestrator --> Redis
-```
-
----
-
 ## 💎 Key Features
 
 ### 🧠 **RAG-Powered Professional Chatbot**
