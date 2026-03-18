@@ -1,0 +1,7 @@
+﻿app/dashboard/page.tsx(337,121): error TS1127: Invalid character.
+app/dashboard/page.tsx(337,139): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/dashboard/page.tsx(337,142): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+app/dashboard/page.tsx(338,39): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+app/dashboard/page.tsx(449,26): error TS1127: Invalid character.
+app/dashboard/page.tsx(449,27): error TS1003: Identifier expected.
+app/dashboard/page.tsx(504,1): error TS1160: Unterminated template literal.
